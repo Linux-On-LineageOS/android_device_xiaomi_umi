@@ -67,3 +67,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
